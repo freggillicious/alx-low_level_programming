@@ -1,20 +1,21 @@
 #include "main.h"
+
 /**
- * _isdigit - checks for digit.
- * @c: prints int
+ * _isupper - evalue if letter is uppercase.
+ * @c: print int.
  * Return: Always 0 (Success)
  */
 
-int _isdigit(int c)
+int _isupper(int c)
 {
-if (c >= 48 && c <= 57)
-{
-return (1);
-}
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
 
-else
-{
-return (0);
-}
+	else
+	{
+		return (0);
+	}
 
 }
