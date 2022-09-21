@@ -1,4 +1,4 @@
-nclude "holberton.h"
+7-puts_half.c
 
 /**
  * puts_half - a function that prints half of a string, followed by a new line.
